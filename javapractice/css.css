@@ -25,6 +25,12 @@ h2{
     transform: translate(-50%,-50%);
     border-radius: 10px;
 }
+@media screen and (max-width:496px) {
+    .container{
+        width: 80%;
+    }
+    
+}
 #former{
     margin-top: 20px;
     width: fit-content;
