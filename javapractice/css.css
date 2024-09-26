@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+margin: 0;
+padding: 0;
+width: 100vw;
+height: 100vh;
+background-color: black;
+}
+h2{
+    text-align: center;
+    padding: 5px 10px;
+    
+}
+.container{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(162, 161, 162);
+    position: relative;
+   top: 50%;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+#former{
+    margin-top: 20px;
+    width: fit-content;
+    display: grid;
+    color: pink;
+    border: 5px solid rgb(255, 207, 16);
+    grid-template-columns:1fr;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    
+}
+input[type="text"]{
+    width: fit-content;
+    height: 120%;
+    background-color: white;
+    border: none;
+    padding-bottom: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+input[type="button"]{
+    background-color: rgb(129, 210, 22);
+    font-size: 20px;
+    color: white;
+    border:1px solid black;
+    padding: 10px;
+}
+.row1,.row2,.row3,.row4,.row5  {
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+.footer input[type="button"]{
+    background-color: red;
+    color: white;
+    font:20px cursive;
+    border-radius: 0px 00px 10px 10px;
+    border:none;
+}
+#submit{
+    background-color: gold;
+}
